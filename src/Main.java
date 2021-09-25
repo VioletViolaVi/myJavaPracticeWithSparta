@@ -26,5 +26,11 @@ public class Main {
 
         replacing.replacingChars("rainbow", 'r', 't'); // tainbow
         replacing.replacingChars("rainbow", 'w', 'x'); // rainbox
+
+        // enums
+        Enums enums = new Enums();
+        enums.enumsPractice(7); // SUN
+        enums.enumsPractice(5); // FRI
+        enums.enumsPractice(22); // default value
     }
 }
