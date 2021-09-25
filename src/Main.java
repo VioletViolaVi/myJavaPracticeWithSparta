@@ -19,6 +19,7 @@ public class Main {
         pali.paliChecker("nurses run"); // palindrome
         pali.paliChecker("mom"); // palindrome
         pali.paliChecker("candy man"); // not palindrome
+        pali.paliChecker("race car"); // palindrome
 
         // replacing
         Replacing replacing = new Replacing();
@@ -32,5 +33,15 @@ public class Main {
         enums.enumsPractice(7); // SUN
         enums.enumsPractice(5); // FRI
         enums.enumsPractice(22); // default value
+
+        // abstraction - abstract classes need to be used via a subclass!
+        Dessert cake = new Cake();
+        cake.messageAboutAbstract();
+        cake.veganOrNot("no");
+        cake.veganOrNot("yes");
+        cake.veganOrNot("i don't know");
+        cake.numOfOrders(3);
+        cake.nameOfCustomer("Peter", "Pan");
+        cake.messageAboutInterface();
     }
 }
