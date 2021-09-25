@@ -20,6 +20,11 @@ public class Main {
         pali.paliChecker("mom"); // palindrome
         pali.paliChecker("candy man"); // not palindrome
 
+        // replacing
+        Replacing replacing = new Replacing();
+        replacing.replacingStrings("laptop", "top", "bottom");
 
+        replacing.replacingChars("rainbow", 'r', 't'); // tainbow
+        replacing.replacingChars("rainbow", 'w', 'x'); // rainbox
     }
 }
