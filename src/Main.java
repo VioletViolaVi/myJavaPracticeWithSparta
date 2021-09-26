@@ -67,5 +67,9 @@ public class Main {
         fish.howManyFins("Fish", 5);
         fish.waterOrLandHome("Fish");
         System.out.println(fish.landOrWater("water"));
+
+        // Math class
+        System.out.println(Math.random());
+        System.out.println(Math.round(Math.random()*10));
     }
 }
