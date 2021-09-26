@@ -43,5 +43,29 @@ public class Main {
         cake.numOfOrders(3);
         cake.nameOfCustomer("Peter", "Pan");
         cake.messageAboutInterface();
+
+        // abstract w/ animals
+        System.out.println("\n");
+        Pig pig = new Pig();
+        pig.whatDoesItSay("Pig", "Oink Oink");
+        pig.howManyLegs("Pig");
+        pig.toesSentence("Pig", pig.hasToes("nO"));
+        pig.waterOrLandHome("Pigs");
+        System.out.println(pig.landOrWater("land"));
+
+        System.out.println("\n");
+        Cow cow = new Cow();
+        cow.whatDoesItSay("Cow", "Moo Moo");
+        cow.howManyLegs("Cow");
+        cow.toesSentence("Cows", cow.hasToes("yES"));
+        cow.waterOrLandHome("Cows");
+        System.out.println(cow.landOrWater("farm"));
+
+        System.out.println("\n");
+        Fish fish = new Fish();
+        fish.whatDoesItSay("Fish", "Glub, Glub!");
+        fish.howManyFins("Fish", 5);
+        fish.waterOrLandHome("Fish");
+        System.out.println(fish.landOrWater("water"));
     }
 }
